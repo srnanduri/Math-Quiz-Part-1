@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Fun Quiz!</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href = "https:maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src = "https://maxcdn.bootstrapcdn.con/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "quiz.css">
+        <script src = "main.js"></script>
+    </head>
+    <body class = "body_background">
+        <center>
+        <header>A Fun Quiz!</header>
+        <h2>Directions:</h2>
+        <h3>There are two sides of the game. Player 1 and Player 2. But both of their screens will show up here.</h3>
+        <div class = "col-lg-4 col-sm-8 col-xs-11 login_div1">
+            <h1>Person 1:</h1>
+			<h3>Person 1's screen name:</h3>
+			<input class = "form-control" id = "person1_name_input" placeholder = "Name">
+        </div>
+        <br>
+        <br>
+        <div class = "line"></div>
+        <br>
+        <br>
+        <div class = "col-lg-4 col-sm-8 col-xs-11 login_div2">
+            <h1>Person 2:</h1>
+            <h3>Person 2's screen name</h3>
+            <input class = "form-control" id = "person2_name_input" placeholder = "Name">
+        </div>
+        <br>
+        <br>
+        <div class = "line"></div>
+        <br>
+        <br>
+        <button id = "login" onclick = "login()">Start</button>
+        </center>
+    </body>
+</html>
